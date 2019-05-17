@@ -1,0 +1,25 @@
+{
+    "name": "zechim/ottonova",
+    "type": "project",
+    "authors": [
+        {
+            "name": "zechim",
+            "email": "zechim.php@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "symfony/var-dumper": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ottonova\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
